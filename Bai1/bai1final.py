@@ -40,7 +40,7 @@ def loc_trung_vi(img):
     return img_new
 
 if __name__ == "__main__":
-    img = plt.imread('final1.bmp')
+    img = plt.imread('final1.bmp',0)
     # img=img/255
     row,col = img.shape
     global img_new
